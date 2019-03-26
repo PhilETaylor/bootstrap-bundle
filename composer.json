@@ -13,27 +13,12 @@
     ],
     "require":      {
         "php":                      ">=5.3.3",
-        "symfony/framework-bundle": "~2.6|~3.0|^4.0",
-        "symfony/twig-bundle":      "~2.6|~3.0|^4.0",
-        "symfony/form":             "~2.6|~3.0|^4.0",
-        "symfony/console":          "~2.6|~3.0|^4.0",
-        "symfony/finder":           "~2.6|~3.0|^4.0",
-        "twig/twig":                "~1.12|~2.0@dev"
     },
     "require-dev": {
-        "symfony/assetic-bundle":       "~2.6|~3.0|^4.0",
-        "knplabs/knp-menu":             "~2.0@alpha",
-        "knplabs/knp-menu-bundle":      "~2.0@alpha",
-        "knplabs/knp-paginator-bundle": "dev-master",
-        "phpunit/phpunit":              "~4.8",
-        "mockery/mockery":              "~0.9"
+       
     },
     "suggest":      {
-        "knplabs/knp-paginator-bundle": "BraincraftedBootstrapBundle styles the pagination provided by KnpPaginatorBundle.",
-        "knplabs/knp-menu":             "Required to use KnpMenuBundle.",
-        "knplabs/knp-menu-bundle":      "BraincraftedBootstrapBundle styles the menus provided by KnpMenuBundle.",
-        "twbs/bootstrap":               "Twitter Bootstrap provides the assets (images, CSS and JS)"
-    },
+      },
     "autoload": {
         "psr-4": { "Braincrafted\\Bundle\\BootstrapBundle\\": "" }
     }
