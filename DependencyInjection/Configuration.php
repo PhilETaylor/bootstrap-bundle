@@ -61,7 +61,7 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder = new TreeBuilder('braincrafted_bootstrap');
 
-        $rootNode->getRootNode()
+        $treeBuilder->getRootNode()
             ->children()
                 ->scalarNode('output_dir')->defaultValue('')->end()
                 ->scalarNode('assets_dir')
